@@ -1,0 +1,21 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Docker vSphere Documentation
+  items:
+    - title: VMWare Home
+      url: http://www.vmware.com/in.html
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Social Media
+      folderitems:
+        - title: VMWare on Youtube
+          external_url: https://www.youtube.com/user/vmwaretv
+        - title: Communities
+          external_url: https://communities.vmware.com/community/vmtn/foreign-language-forums
+        - title: Twitter
+          external_url: https://twitter.com/VMwareIN
+        
